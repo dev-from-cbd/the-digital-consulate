@@ -101,6 +101,14 @@ li a:hover:after {
   height: 100vh;
 }
 
+.contact-us {
+  height: 100vh;
+}
+
+.footer {
+  height: 100vh;
+}
+
 @media screen and (max-width: 574px) {
   .logo-box {
     float: none;
