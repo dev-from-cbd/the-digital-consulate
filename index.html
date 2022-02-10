@@ -8,13 +8,6 @@
 
 <html lang="en">
   <head>
-    <title>
-      Web Design and Development in Adelaide | The Digital Consulate
-    </title>
-    <!-- <title>The Digital Front End Developer Exercise</title> -->
-
-    <link href="css/main.css" rel="stylesheet" type="text/css" />
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -121,22 +114,48 @@
       title="Web Design Adelaide - Scale Up Your Business Online With The Digital Consulate &raquo; Home Comments Feed"
       href="https://www.thedigitalConsulate.com/the-digital-Consulate-premier-web-design-digital-agency-in-adelaide/feed/"
     />
+
+    <title>
+      Web Design and Development in Adelaide | The Digital Consulate
+    </title>
+    <!-- <title>The Digital Front End Developer Exercise</title> -->
+
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <!--<link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous"
+      />-->
+
+    <script src="js/main.js"></script>
+    <!--<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+    
+        <script
+      src="https://kit.fontawesome.com/bd8d0c3284.js"
+      crossorigin="anonymous"
+    ></script>
+    -->
   </head>
   <body>
     <header class="bg-color">
-      <a name="top"></a>
+      <a id="top"></a>
       <nav>
         <div class="logo-box">
-          <h1 class="logo">
+          <div class="logo">
             <a class="logo-text" href="#top">
               <!-- 
               <img
                 src="images/logo.svg"
               />
-    -->
+            -->
               LOGO
             </a>
-          </h1>
+          </div>
         </div>
         <ul>
           <li><a href="#top">HOME</a></li>
@@ -148,32 +167,213 @@
         </ul>
       </nav>
 
-      <p class="text-center">
-        Fuse dapibus tellus ac cursus commodo.
-        <br />
-        Duis mollis est non commodo luctus, nisi erat porttitor.
-      </p>
+      <div class="text-center">
+        <h1 class="h1-header">Fuse dapibus tellus ac cursus commodo.</h1>
+        <p class="p-header">
+          Duis mollis est non commodo luctus, nisi erat porttitor.
+        </p>
+      </div>
 
-      <p class="single-french-angle-quote">&#60; &nbsp; &#62;</p>
+      <p class="chevron">&#60; &nbsp; &#62;</p>
 
-      <p class="bullets">00.000</p>
+      <div class="bullets">
+        <img src="images/circles.png" alt="header icons" />
+        <!-- 
+        <div class="display__inline-block">&#9675;</div>
+        <div class="display__inline-block">&#9675;</div>
+        <div class="display__inline-block black-bullet">&#8226;</div>
+        <div class="display__inline-block">&#9675;</div>
+        <div class="display__inline-block">&#9675;</div>
+        <div class="display__inline-block">&#9675;</div>
+        -->
+      </div>
     </header>
 
     <section class="about-us">
-      <a name="about"></a>
-      About us
+      <a id="about"></a>
+      <h2 class="h2__about-us">OUR COMPANY BY NUMBERS</h2>
+      <div class="div__about-us">
+        <div class="display__inline-block">
+          <div class="gray-bullet">.</div>
+          <div class="div__about-us__numbers">1.295.365</div>
+          <div class="div__about-us__text">Lorem ipsum</div>
+        </div>
+
+        <div class="display__inline-block margin-left">
+          <div class="gray-bullet">.</div>
+          <div class="div__about-us__numbers">5.365</div>
+          <div class="div__about-us__text">Lore ipsum</div>
+        </div>
+
+        <div class="display__inline-block margin-left">
+          <div class="gray-bullet">.</div>
+          <div class="div__about-us__numbers">895.365</div>
+          <div class="div__about-us__text">Lorem ipsum</div>
+        </div>
+
+        <div class="display__inline-block margin-left">
+          <div class="gray-bullet">.</div>
+          <div class="div__about-us__numbers">65</div>
+          <div class="div__about-us__text">Lorem ipsum</div>
+        </div>
+
+        <div class="display__inline-block margin-left">
+          <div class="gray-bullet">.</div>
+          <div class="div__about-us__numbers">365</div>
+          <div class="div__about-us__text">Lorem ipsum</div>
+        </div>
+      </div>
     </section>
 
     <section class="services">
-      <a name="services"></a>
-      Services
+      <a id="services"></a>
+      <h2 class="h2__services">SERVICES WE PROVIDE</h2>
+
+      <p class="p__services">
+        Fuse dapibus, tellus ac cursus commodo, tortor mauris condimentum,
+        <br />Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+        eget lacinia odio sem nec elit.
+      </p>
+
+      <div class="div__services">
+        <div class="display__inline-block">
+          <div class="services-icon">
+            <img src="images/services-icon.png" alt="BRANDING" />
+          </div>
+          <div class="div__service__name">BRANDING</div>
+          <div class="div__service__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh
+          </div>
+        </div>
+
+        <div class="display__inline-block margin-left">
+          <div class="services-icon">
+            <img src="images/services-icon.png" alt="DESIGN" />
+          </div>
+          <div class="div__service__name">DESIGN</div>
+          <div class="div__service__text">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          </div>
+        </div>
+
+        <div class="display__inline-block margin-left">
+          <div class="services-icon">
+            <img src="images/services-icon.png" alt="DEVELOPMENT" />
+          </div>
+          <div class="div__service__name">DEVELOPMENT</div>
+          <div class="div__service__text">
+            At vero eos et accusamus et lusto odio dignissimos qui blanditiis
+            praesentium.
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="contact-us">
-      <a name="contact-us"></a>
-      Contact us
+      <a id="contact-us"></a>
+      <h2 class="h2__contact-us">GET IN TOUCH</h2>
+      <div class="div__contact-us">
+        <div class="display__inline-block">
+          <form
+            action="mailto:someone@example.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <input
+              class="your-name"
+              type="text"
+              name="name"
+              placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Your Name"
+            />
+            <br />
+            <br />
+            <input
+              class="your-email"
+              type="text"
+              name="mail"
+              placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Your Email"
+            />
+            <br />
+            <br />
+            <textarea
+              class="your-message"
+              placeholder="&nbsp;&nbsp;Your Message"
+            ></textarea>
+            <br />
+            <br />
+            <input type="submit" value="SEND" />
+          </form>
+        </div>
+
+        <div class="display__inline-block">
+          <div class="div__contact-us__text">
+            <div class="div__contact-us__text__lorem">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Done
+              odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
+              turpis. Suspendisse urna nibh, viverra non, semper suscipit,
+              posuere a, pede.
+            </div>
+            <br />
+            <div class="div__contact-us__text__1600">
+              1600 Pennsvlvania Ave NW, Washington, DC 20500. United States of
+              America.
+            </div>
+            <br />
+            <div class="div__contact-us__text__phone">
+              T: (202) 456-1111
+              <br />
+              M: (202) 456-1212
+            </div>
+
+            <br />
+            <div
+              class="div__contact-us__smm display__inline-block margin-left__smm"
+            >
+              f
+            </div>
+            <div
+              class="div__contact-us__smm display__inline-block margin-left__smm"
+            >
+              t
+            </div>
+            <div
+              class="div__contact-us__smm display__inline-block margin-left__smm"
+            >
+              g
+            </div>
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
     </section>
 
-    <footer class="footer">Footer</footer>
+    <footer class="footer">
+      <h2 class="h2__footer">LOGO</h2>
+
+      <p class="p__footer">
+        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.<br />
+        Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+      </p>
+
+      <div class="div__footer">
+        <div
+          class="div__contact-us__smm__565d67 display__inline-block margin-left__smm__565d67"
+        >
+          f
+        </div>
+        <div
+          class="div__contact-us__smm__565d67 display__inline-block margin-left"
+        >
+          t
+        </div>
+        <div
+          class="div__contact-us__smm__565d67 display__inline-block margin-left__smm"
+        >
+          g
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

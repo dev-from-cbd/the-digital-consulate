@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: "Roboto", "Delicious-SmallCaps", "Instruction",
     "Fontin Sans Small Caps", "Fontin Sans CR SC", "Dinamika Medium", sans-serif;
-  letter-spacing: 2.5px;
+  letter-spacing: 1.9px;
   font-weight: normal;
 }
 
@@ -22,6 +22,7 @@ nav {
 
 .logo-text {
   font-weight: normal;
+  font-size: 2rem;
 }
 
 .logo-box {
@@ -32,8 +33,6 @@ nav {
 .logo {
   margin: 0;
   height: 70px;
-  /* text-align: center; */
-
   padding-top: 1.25rem;
 }
 
@@ -45,7 +44,6 @@ ul {
   float: right;
   height: 70px;
   line-height: 70px;
-  /* text-align: center; */
 }
 
 a {
@@ -83,30 +81,263 @@ li a:hover:after {
 
 .text-center {
   text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 20vh;
 }
 
-.single-french-angle-quote {
+.h1-header {
   text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.p-header {
+  margin-top: -1rem;
+}
+
+.chevron {
+  text-align: center;
+  margin-top: 2.1rem;
+  transform: scale(1, 2);
+  transform-origin: 0 0;
+  font-size: 0.8rem;
 }
 
 .bullets {
   text-align: center;
+  margin-top: 10vh;
+}
+
+.black-bullet {
+  font-size: 2rem;
+}
+
+.display__inline-block {
+  display: inline-block;
 }
 
 .about-us {
   height: 100vh;
 }
 
+.h2__about-us {
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+.div__about-us {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.gray-bullet {
+  color: #cdcdcd;
+  font-size: 35rem;
+  margin-top: -25rem;
+}
+
+.margin-left {
+  margin-left: 10rem;
+}
+
+.div__about-us__numbers {
+  margin-top: -5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.div__about-us__text {
+  font-size: 0.75rem;
+  color: darkgray;
+}
+
 .services {
   height: 100vh;
+}
+
+.h2__services {
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+.p__services {
+  text-align: center;
+  margin-top: -3rem;
+}
+
+.div__services {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.services-icon {
+  color: #cdcdcd;
+  font-size: 35rem;
+  margin-top: -25rem;
+}
+
+.div__service__name {
+  margin-top: -5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.div__service__text {
+  font-size: 0.75rem;
+  color: darkgray;
+  width: 11vw;
 }
 
 .contact-us {
   height: 100vh;
 }
 
+.div__contact-us {
+  text-align: left;
+  margin-left: 25vw;
+}
+
+.h2__contact-us {
+  text-align: center;
+  margin-top: 18rem;
+  margin-bottom: 5rem;
+}
+
+.div__contact-us__text {
+  width: 20vw;
+  margin-left: 20rem;
+}
+
+.div__contact-us__text__lorem {
+  font-size: 0.75rem;
+}
+
+.div__contact-us__text__1600 {
+  font-size: 0.98rem;
+}
+
+.div__contact-us__text__phone {
+  font-size: 0.98rem;
+}
+
+.div__contact-us__smm {
+  font-size: 1.7rem;
+  font-weight: 100;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: white;
+  margin: 1em;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.margin-left__smm {
+  margin-left: -0.2rem;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus:-moz-placeholder {
+  color: transparent;
+} /* FF 4-18 */
+
+input:focus::-moz-placeholder {
+  color: transparent;
+} /* FF 19+ */
+
+input:focus:-ms-input-placeholder {
+  color: transparent;
+} /* IE 10+ */
+
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+textarea:focus:-moz-placeholder {
+  color: transparent;
+} /* FF 4-18 */
+
+textarea:focus::-moz-placeholder {
+  color: transparent;
+} /* FF 19+ */
+
+textarea:focus:-ms-input-placeholder {
+  color: transparent;
+} /* IE 10+ */
+
+.your-name {
+  height: 30px;
+  width: 300px;
+}
+
+.your-email {
+  height: 30px;
+  width: 300px;
+}
+
+.your-message {
+  height: 140px;
+  width: 300px;
+}
+
+input[type="submit"] {
+  border: 1px solid #eb5d5d;
+  color: #fff;
+  background: #eb5d5c;
+  padding: 10px 40px;
+  border-radius: 1px;
+}
+
+input[type="submit"]:hover {
+  background: #f44c0e;
+}
+
 .footer {
-  height: 100vh;
+  height: 70vh;
+  background-color: #565d67;
+}
+
+.h2__footer {
+  text-align: center;
+  margin-top: 28rem;
+  margin-bottom: 3rem;
+  padding-top: 5rem;
+}
+
+.p__footer {
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.div__footer {
+  text-align: center;
+}
+
+.div__contact-us__smm__565d67 {
+  font-size: 1.7rem;
+  font-weight: 100;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #565d67;
+  margin: 1em;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+}
+
+.margin-left__smm__565d67 {
+  margin-left: -0.2rem;
 }
 
 @media screen and (max-width: 574px) {
