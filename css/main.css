@@ -36,6 +36,25 @@ nav {
   padding-top: 1.25rem;
 }
 
+.logo__img__top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7rem;
+  padding-top: -8rem;
+  margin-top: -0.8rem;
+  margin-left: 5rem;
+}
+
+.logo__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
 ul {
   margin: 0;
   margin-right: 25px;
