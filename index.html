@@ -140,6 +140,11 @@
       crossorigin="anonymous"
     ></script>
     -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header class="bg-color">
@@ -154,7 +159,7 @@
             </a>
           </div>
         </div>
-        <ul>
+        <ul class="display-none">
           <li><a href="#top">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#work">WORK</a></li>
@@ -162,6 +167,23 @@
           <li><a href="#blog">BLOG</a></li>
           <li><a href="#contact-us">CONTACT</a></li>
         </ul>
+
+        <div class="topnav">
+          <a href="#top" class="active"
+            ><img src="images/logo.svg" class="logo__img__top"
+          /></a>
+          <div id="myLinks">
+            <li><a href="#top">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#work">WORK</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <li><a href="#contact-us">CONTACT</a></li>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
       </nav>
 
       <div class="text-center">
@@ -373,5 +395,16 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>
