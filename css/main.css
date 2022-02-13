@@ -433,6 +433,7 @@ input[type="submit"]:hover {
   }
 }
 
+/* iPhone 12 Pro */
 @media screen and and (max-width: 390px), screen and (max-height: 844px) {
   .topnav {
     display: block;
@@ -500,6 +501,63 @@ input[type="submit"]:hover {
   .active {
     background-color: gray;
     color: white;
+  }
+
+  .gray-bullet {
+    font-size: 15rem;
+  }
+
+  .div__about-us__numbers {
+    font-size: 1rem;
+  }
+
+  .main__div__about-us {
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+  }
+
+  .h2__about-us {
+    margin-bottom: 10rem;
+  }
+
+  .main__div__about-us .not-main__div__about-us {
+    margin: 0 auto;
+    padding: 15px;
+    margin: 5px auto;
+  }
+
+  .main__div__about-us .not-main__div__about-us:nth-child(1) {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+
+  .main__div__about-us .not-main__div__about-us:nth-child(2) {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+
+  .main__div__about-us .not-main__div__about-us:nth-child(3) {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+
+  .main__div__about-us .not-main__div__about-us:nth-child(4) {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+
+  .main__div__about-us .not-main__div__about-us:nth-child(5) {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+
+  .gray-bullet {
+    margin-bottom: 3rem;
+  }
+
+  .h2__services {
+    margin-top: 20rem;
   }
 }
 
