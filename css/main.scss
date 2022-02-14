@@ -5,6 +5,7 @@
 /* FF 4-18 */
 /* FF 19+ */
 /* IE 10+ */
+/* iPhone 12 Pro */
 body {
 	margin: 0;
 	font-family: "Roboto", "Delicious-SmallCaps", "Instruction", "Fontin Sans Small Caps", "Fontin Sans CR SC", "Dinamika Medium", sans-serif;
@@ -422,6 +423,49 @@ input[type="submit"] {
 		background-color: gray;
 		color: white;
 	}
+	.gray-bullet {
+		font-size: 15rem;
+		margin-bottom: 3rem;
+	}
+	.div__about-us__numbers {
+		font-size: 1rem;
+	}
+	.main__div__about-us {
+		background: white;
+		margin: 20px 0;
+		padding: 10px;
+		.not-main__div__about-us {
+			margin: 0 auto;
+			padding: 15px;
+			margin: 5px auto;
+			&:nth-child(1) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+			&:nth-child(2) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+			&:nth-child(3) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+			&:nth-child(4) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+			&:nth-child(5) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+		}
+	}
+	.h2__about-us {
+		margin-bottom: 10rem;
+	}
+	.h2__services {
+		margin-top: 20rem;
+	}
 }
 @media screen and (max-height: 844px) {
 	.topnav {
@@ -476,6 +520,49 @@ input[type="submit"] {
 	.active {
 		background-color: gray;
 		color: white;
+	}
+	.gray-bullet {
+		font-size: 15rem;
+		margin-bottom: 3rem;
+	}
+	.div__about-us__numbers {
+		font-size: 1rem;
+	}
+	.main__div__about-us {
+		background: white;
+		margin: 20px 0;
+		padding: 10px;
+		.not-main__div__about-us {
+			margin: 0 auto;
+			padding: 15px;
+			margin: 5px auto;
+			&:nth-child(1) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+			&:nth-child(2) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+			&:nth-child(3) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+			&:nth-child(4) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+			&:nth-child(5) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+		}
+	}
+	.h2__about-us {
+		margin-bottom: 10rem;
+	}
+	.h2__services {
+		margin-top: 20rem;
 	}
 }
 @media screen and (max-width: 574px) {
