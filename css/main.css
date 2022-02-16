@@ -559,6 +559,28 @@ input[type="submit"]:hover {
   .h2__services {
     margin-top: 20rem;
   }
+
+  .main__div__services .not-main__div__services {
+    margin: 0 auto;
+    padding: 15px;
+    margin: 5px auto;
+  }
+
+  .div__service__text {
+    width: 90vw;
+  }
+
+  .top__not-main__div__services {
+    margin-top: 3rem;
+  }
+
+  .div__service__text {
+    margin-bottom: 3rem;
+  }
+
+  .contact-us {
+    margin-top: 30rem;
+  }
 }
 
 @media screen and (max-width: 574px) {
