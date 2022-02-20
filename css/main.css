@@ -588,6 +588,31 @@ input[type="submit"]:hover {
   .contact-us {
     margin-top: 30rem;
   }
+
+  /*
+  .form {
+    text-align: center;
+  }
+  */
+
+  .div__contact-us {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .your-name,
+  .your-email,
+  .your-message {
+    width: 60vw;
+  }
+
+  .display__inline-block__form {
+    position: relative;
+  }
+  .display__inline-block__lorem {
+    position: relative;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 574px) {
