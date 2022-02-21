@@ -649,3 +649,137 @@ input[type="submit"]:hover {
     content: none;
   }
 }
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
+
+/* 2340x1080 pixels at 476ppi 
+    This media query is used for: iPhone 13 mini, iPhone 12 mini, iPhone 11 Pro, iPhone Xs, and iPhone X
+    */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+}
+
+/* 2532x1170 pixels at 460ppi 
+    This media query is used for: iPhone 13, iPhone 12 and iPhone 12 Pro
+    */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+}
+
+/* 2778x1284 pixels at 458ppi 
+    This media query is used for: iPhone 13 Pro Max and iPhone 12 Pro Max
+    */
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+}
+
+/* 1792x828px at 326ppi 
+    This media query is used for: iPhone 11 and iPhone XR
+    */
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+}
+
+/* 2436x1125px at 458ppi 
+This media query is used for: iPhone 13 mini, iPhone 12 mini, iPhone 11 Pro, iPhone Xs, and iPhone X
+*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+}
+
+/* 2688x1242px at 458ppi 
+    This media query is used for: iPhone 11 Pro Max and iPhone Xs Max
+*/
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+}
+
+/* iPhone 12 Pro Media Query for min-width: */
+@media only screen and (min-width: 390px) {
+  /* Your Styles... */
+}
+
+/* iPhone 12 Pro Media Query for min-height: */
+@media only screen and (min-height: 844px) {
+  /* Your Styles... */
+}
+
+/* iPhone 12 Pro Media Query for landscape orientation: */
+@media only screen and (min-width: 390px) and (orientation: landscape) {
+  /* Your Styles... */
+}
+
+/* iPhone 12 Pro Media Query for portrait orientation: */
+@media only screen and (min-width: 844px) and (orientation: portrait) {
+  /* Your Styles... */
+}
+
+/* iPhone 12 Pro Media Query for device pixel ratio: */
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+  only screen and (min--moz-device-pixel-ratio: 3),
+  only screen and (-o-min-device-pixel-ratio: 3/1),
+  only screen and (min-device-pixel-ratio: 3) {
+  /* Your Styles here */
+}
