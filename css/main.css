@@ -758,22 +758,189 @@ This media query is used for: iPhone 13 mini, iPhone 12 mini, iPhone 11 Pro, iPh
 
 /* iPhone 12 Pro Media Query for min-width: */
 @media only screen and (min-width: 390px) {
-  /* Your Styles... */
 }
 
 /* iPhone 12 Pro Media Query for min-height: */
 @media only screen and (min-height: 844px) {
-  /* Your Styles... */
 }
 
 /* iPhone 12 Pro Media Query for landscape orientation: */
 @media only screen and (min-width: 390px) and (orientation: landscape) {
-  /* Your Styles... */
 }
 
 /* iPhone 12 Pro Media Query for portrait orientation: */
 @media only screen and (min-width: 844px) and (orientation: portrait) {
-  /* Your Styles... */
+  .topnav {
+    display: block;
+  }
+
+  .logo-box {
+    display: none;
+  }
+
+  .display-none {
+    display: none;
+  }
+
+  .logo__img__top {
+    width: 5rem;
+    padding-top: 0.7rem;
+    margin-left: 0.5rem;
+  }
+
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: red;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+
+    margin-top: -2.4rem;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .active {
+    background-color: gray;
+    color: white;
+  }
+
+  .gray-bullet {
+    font-size: 15rem;
+  }
+
+  .div__about-us__numbers {
+    font-size: 1rem;
+  }
+
+  .main__div__about-us {
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+  }
+
+  .h2__about-us {
+    margin-bottom: 10rem;
+  }
+
+  .main__div__about-us .not-main__div__about-us {
+    margin: 0 auto;
+    padding: 15px;
+    margin: 5px auto;
+  }
+
+  .main__div__about-us .not-main__div__about-us:nth-child(1) {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+
+  .main__div__about-us .not-main__div__about-us:nth-child(2) {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+
+  .main__div__about-us .not-main__div__about-us:nth-child(3) {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+
+  .main__div__about-us .not-main__div__about-us:nth-child(4) {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+
+  .main__div__about-us .not-main__div__about-us:nth-child(5) {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+
+  .gray-bullet {
+    margin-bottom: 3rem;
+  }
+
+  .h2__services {
+    margin-top: 20rem;
+  }
+
+  .main__div__services .not-main__div__services {
+    margin: 0 auto;
+    padding: 15px;
+    margin: 5px auto;
+  }
+
+  .div__service__text {
+    width: 90vw;
+  }
+
+  .top__not-main__div__services {
+    margin-top: 3rem;
+  }
+
+  .div__service__text {
+    margin-bottom: 3rem;
+  }
+
+  .contact-us {
+    margin-top: 30rem;
+  }
+
+  /*
+    .form {
+      text-align: center;
+    }
+    */
+
+  .div__contact-us {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .your-name,
+  .your-email,
+  .your-message {
+    width: 60vw;
+  }
+
+  .display__inline-block__form {
+    position: relative;
+  }
+  .display__inline-block__lorem {
+    position: relative;
+    margin: 0 auto;
+  }
 }
 
 /* iPhone 12 Pro Media Query for device pixel ratio: */
@@ -781,5 +948,4 @@ This media query is used for: iPhone 13 mini, iPhone 12 mini, iPhone 11 Pro, iPh
   only screen and (min--moz-device-pixel-ratio: 3),
   only screen and (-o-min-device-pixel-ratio: 3/1),
   only screen and (min-device-pixel-ratio: 3) {
-  /* Your Styles here */
 }
