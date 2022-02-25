@@ -87,15 +87,15 @@ This media query is used for: iPhone 13 mini, iPhone 12 mini, iPhone 11 Pro, iPh
     This media query is used for: iPhone 11 Pro Max and iPhone Xs Max
 */
 /* iPhone 12 Pro Media Query for min-width: */
-/* Your Styles... */
 /* iPhone 12 Pro Media Query for min-height: */
-/* Your Styles... */
 /* iPhone 12 Pro Media Query for landscape orientation: */
-/* Your Styles... */
 /* iPhone 12 Pro Media Query for portrait orientation: */
-/* Your Styles... */
+/*
+    .form {
+      text-align: center;
+    }
+    */
 /* iPhone 12 Pro Media Query for device pixel ratio: */
-/* Your Styles here */
 body {
 	margin: 0;
 	font-family: "Roboto", "Delicious-SmallCaps", "Instruction", "Fontin Sans Small Caps", "Fontin Sans CR SC", "Dinamika Medium", sans-serif;
@@ -731,5 +731,153 @@ input[type="submit"] {
 				content: none;
 			}
 		}
+	}
+}
+@media only screen and (min-width: 844px) and (orientation: portrait) {
+	.topnav {
+		display: block;
+		overflow: hidden;
+		background-color: black;
+		position: relative;
+		margin-top: -2.4rem;
+		#myLinks {
+			display: none;
+		}
+		a {
+			color: white;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+			display: block;
+			&:hover {
+				background-color: #ddd;
+				color: black;
+			}
+		}
+		a.icon {
+			background: black;
+			display: block;
+			position: absolute;
+			right: 0;
+			top: 0;
+			margin-top: 1.5rem;
+			margin-right: 1rem;
+		}
+	}
+	.logo-box {
+		display: none;
+	}
+	.display-none {
+		display: none;
+	}
+	.logo__img__top {
+		width: 5rem;
+		padding-top: 0.7rem;
+		margin-left: 0.5rem;
+	}
+	.mobile-container {
+		max-width: 480px;
+		margin: auto;
+		background-color: red;
+		height: 500px;
+		color: white;
+		border-radius: 10px;
+	}
+	.active {
+		background-color: gray;
+		color: white;
+	}
+	.gray-bullet {
+		font-size: 15rem;
+		margin-bottom: 3rem;
+	}
+	.div__about-us__numbers {
+		font-size: 1rem;
+	}
+	.main__div__about-us {
+		background: white;
+		margin: 20px 0;
+		padding: 10px;
+		.not-main__div__about-us {
+			margin: 0 auto;
+			padding: 15px;
+			margin: 5px auto;
+			&:nth-child(1) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+			&:nth-child(2) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+			&:nth-child(3) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+			&:nth-child(4) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+			&:nth-child(5) {
+				width: 200px;
+				margin-bottom: 3rem;
+			}
+		}
+	}
+	.h2__about-us {
+		margin-bottom: 10rem;
+	}
+	.h2__services {
+		margin-top: 20rem;
+	}
+	.main__div__services {
+		.not-main__div__services {
+			margin: 0 auto;
+			padding: 15px;
+			margin: 5px auto;
+		}
+	}
+	.div__service__text {
+		width: 90vw;
+		margin-bottom: 3rem;
+	}
+	.top__not-main__div__services {
+		margin-top: 3rem;
+	}
+	.contact-us {
+		margin-top: 30rem;
+	}
+	.div__contact-us {
+		display: flex;
+		flex-direction: column;
+	}
+	.your-name {
+		width: 60vw;
+	}
+	.your-email {
+		width: 60vw;
+	}
+	.your-message {
+		width: 60vw;
+	}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+	.display__inline-block__lorem {
+		display: none;
+	}
+}
+@media only screen and (min--moz-device-pixel-ratio: 3) {
+	.display__inline-block__lorem {
+		display: none;
+	}
+}
+@media only screen and (-o-min-device-pixel-ratio: 3/1) {
+	.display__inline-block__lorem {
+		display: none;
+	}
+}
+@media only screen and (min-device-pixel-ratio: 3) {
+	.display__inline-block__lorem {
+		display: none;
 	}
 }
