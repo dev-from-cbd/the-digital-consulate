@@ -933,14 +933,6 @@ This media query is used for: iPhone 13 mini, iPhone 12 mini, iPhone 11 Pro, iPh
   .your-message {
     width: 60vw;
   }
-
-  .display__inline-block__form {
-    position: relative;
-  }
-  .display__inline-block__lorem {
-    position: relative;
-    margin: 0 auto;
-  }
 }
 
 /* iPhone 12 Pro Media Query for device pixel ratio: */
@@ -948,4 +940,7 @@ This media query is used for: iPhone 13 mini, iPhone 12 mini, iPhone 11 Pro, iPh
   only screen and (min--moz-device-pixel-ratio: 3),
   only screen and (-o-min-device-pixel-ratio: 3/1),
   only screen and (min-device-pixel-ratio: 3) {
+  .display__inline-block__lorem {
+    display: none;
+  }
 }
