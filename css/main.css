@@ -589,12 +589,6 @@ input[type="submit"]:hover {
     margin-top: 30rem;
   }
 
-  /*
-  .form {
-    text-align: center;
-  }
-  */
-
   .div__contact-us {
     display: flex;
     flex-direction: column;
@@ -917,12 +911,6 @@ This media query is used for: iPhone 13 mini, iPhone 12 mini, iPhone 11 Pro, iPh
     margin-top: 30rem;
   }
 
-  /*
-    .form {
-      text-align: center;
-    }
-    */
-
   .div__contact-us {
     display: flex;
     flex-direction: column;
@@ -942,5 +930,10 @@ This media query is used for: iPhone 13 mini, iPhone 12 mini, iPhone 11 Pro, iPh
   only screen and (min-device-pixel-ratio: 3) {
   .display__inline-block__lorem {
     display: none;
+  }
+
+  .div__contact-us {
+    text-align: left;
+    margin-left: 20vw;
   }
 }
